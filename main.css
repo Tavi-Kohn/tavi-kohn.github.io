@@ -1,8 +1,39 @@
 /*.nav-pills {
-    margin: 1em;
+	margin: 1em;
 }*/
 
+body {
+	padding-top: 4rem;
+	background-color: #525658;
+}
+
+/* cards */
+.card-columns {
+	margin: 1rem;
+	column-width: 20rem;
+}
+
 .card {
-    margin: 1em;
-    max-width: 30rem;
+	/*display: inline-block;*/
+	/*column-break-inside: avoid;*/
+	margin-bottom: 0.5rem;
+}
+
+/* footer */
+footer {
+	background-color: #292b2c;
+	padding: 0.5em;
+}
+
+footer h1, footer h2, footer h3, footer h4, footer h5, footer h6, footer p, footer a {
+	color: #fff;
+}
+
+footer .col-4 {
+	border-right-color: #bbb;
+	border-right-width:thin;
+	border-right-style:solid;
+	border-left-color: #bbb;
+	border-left-width:thin;
+	border-left-style:solid;
 }
