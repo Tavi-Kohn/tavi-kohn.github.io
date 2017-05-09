@@ -3,11 +3,13 @@
 }*/
 
 body {
+	height: 100%;
+	margin: 0;
 	padding-top: 4rem;
 	background-color: #525658;
 }
 
-/* cards */
+/* Cards */
 .card-columns {
 	margin: 1rem;
 	column-width: 20rem;
@@ -16,7 +18,29 @@ body {
 .card {
 	/*display: inline-block;*/
 	/*column-break-inside: avoid;*/
-	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+}
+
+/* Font Awesome Icons */
+.fa {
+	color: #fff;
+}
+
+/* Bootstrap Text */
+.text-dark {
+	color: #525658;
+}
+
+.text-light {
+	color: #fff
+}
+
+.header-dark {
+	color: #525658;
+}
+
+.header-light {
+	color: #fff;
 }
 
 /* footer */
@@ -29,11 +53,25 @@ footer h1, footer h2, footer h3, footer h4, footer h5, footer h6, footer p, foot
 	color: #fff;
 }
 
-footer .col-4 {
+/*
+.display-1, .display-2, .display-3, .display-4 {
+	color: #fff;
+}
+
+.lead {
+	color: #fff;
+}
+*/
+
+/*footer .col-4 {
 	border-right-color: #bbb;
-	border-right-width:thin;
+	border-right-width:medium;
 	border-right-style:solid;
 	border-left-color: #bbb;
-	border-left-width:thin;
+	border-left-width:medium;
 	border-left-style:solid;
+}*/
+
+footer .row {
+	margin-top: 1rem;
 }
