@@ -106,11 +106,17 @@
 				</div>
 				<div class="col-sm-4">
 					<h6>Contact</h6>
-					<a href="mailto:tavi.kohn@gmail.com" class="btn btn-primary" style="text-align:left;">
+					<!-- <a href="mailto:tavi.kohn@gmail.com" class="btn btn-primary" style="text-align:left;">
 						<i class="fa fa-address-card fa-4x" style="display: inline;" aria-hidden="true"></i>
 						<div style="display:inline-block;vertical-align:top;padding-top:0.3rem">
 							<p style="margin-bottom:0.5rem"><code>mailto:tavi.kohn@gmail.com</code></p>
 							<p style="margin-bottom:0.5rem"><code>http://github.com/Tavi-Kohn/</code></p>
+						</div>
+					</a> -->
+					<a id="email-popover-button" tabindex="0" class="btn btn-primary popover-dismiss" role="button" style="text-align:left;" data-toggle="popover" data-trigger="focus" data-placement="top" title="Email" data-content="...">
+						<i class="fa fa-address-card fa-4x" style="display: inline;" aria-hidden="true"></i>
+						<div style="display:inline-block;vertical-align:top;padding-top:0.3rem">
+							<p style="margin-bottom:0.5rem"><code>Tavi Kohn</code></p>
 						</div>
 					</a>
 				</div>
@@ -120,6 +126,15 @@
 
 	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/webui-popover/2.1.15/jquery.webui-popover.min.js" integrity="sha256-ghsZ3ZUlahAo7UJvS19FLuw3Is34Nt+0bpARVv5yBS8=" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+	<!-- Enable Dismissable Popovers -->
+	<script src=js/popoverDismiss.js></script>
+
+	<!-- Cause email on popover to automatically decode from base64 -->
+	<script src="js/emailPopoverButton.js">
+	</script>
+
 </body>
 </html>
