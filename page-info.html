@@ -42,12 +42,14 @@
 					</a>
 				</div>
 				<div class="col-sm-4">
-					<h6>Other useful stuff</h6>
+					<h6>Built With</h6>
+					<img src="images/bootstrap-icon-solid.svg" style="width:2rem;height:2rem;"><p class="inline-block" style="margin-left:1rem;">Bootstrap</p></img>
+					<br/>
+					<img src="images/github-icon-solid.svg" style="width:2rem;height:2rem;"><p class="inline-block" style="margin-left:1rem;">Github</p></img>
 				</div>
 				<div class="col-sm-4">
 					<h6>Contact</h6>
-					<!-- <a class="btn btn-primary" style="text-align:left;" href="http://www.google.com/recaptcha/mailhide/d?k=01eupcJViqbJeJM5lFbT8X8A==&c=Kiwmz4JARlGrokvRRAM64v6Du9661ldlADijW4JcgDQ=" onclick=""window.open('http://www.google.com/recaptcha/mailhide/d?k\x3d01eupcJViqbJeJM5lFbT8X8A\x3d\x3d\x26c\x3dKiwmz4JARlGrokvRRAM64v6Du9661ldlADijW4JcgDQ\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address""> -->
-					<a id="email-popover-button" tabindex="0" class="btn btn-primary popover-dismiss" role="button" style="text-align:left;" data-toggle="popover" data-trigger="focus" data-placement="top" title="Email" data-content="...">
+					<a onfocusin="emailPopoverButtonOnfocusinCallback(this);" tabindex="0" class="btn btn-primary popover-focus-dismiss" role="button" style="text-align:left;" data-toggle="popover" data-trigger="focus" data-placement="top" title="Email" data-content="...">
 						<i class="fa fa-address-card fa-4x" style="display: inline;" aria-hidden="true"></i>
 						<div style="display:inline-block;vertical-align:top;padding-top:0.3rem">
 							<p style="margin-bottom:0.5rem"><code>Tavi Kohn</code></p>
@@ -64,10 +66,10 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
 	<!-- Enable Dismissable Popovers -->
-	<script src=js/popoverDismiss.js></script>
+	<script src="js/popoverFocusDismiss.js"></script>
 
 	<!-- Cause email on popover to automatically decode from base64 -->
-	<script src="js/emailPopoverButton.js">
+	<script src="js/emailFocusPopoverButton.js">
 	</script>
 </body>
 </html>
