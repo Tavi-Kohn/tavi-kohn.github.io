@@ -26,6 +26,20 @@ body {
 	color: #fff;
 }
 
+/* Convenience */
+
+.inline {
+	display: inline;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.inline-flex {
+	display: inline-flex;
+}
+
 /* Bootstrap Text */
 .text-dark {
 	color: #525658;
