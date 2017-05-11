@@ -35,3 +35,10 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# Yarn
+yarn.lock
+node_modules/yarn.integrity
+
+# Package.json
+package.json
