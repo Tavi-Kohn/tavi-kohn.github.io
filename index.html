@@ -6,6 +6,10 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"></link> -->
+	<!-- <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css"></link> -->
+
 	<link rel="stylesheet" href="main.css">
 </head>
 
@@ -92,44 +96,55 @@
 		<div class="container">
 			<div class="d-flex row" style="display:flex;flex-wrap:wrap">
 				<div class="col-sm-4">
-					<h6>Page Info</h6>
+					<h5>Copyright and Licensing</h5>
 					<p class="small">The content on this website, this website itself, and this work (unless otherwise stated) is licensed under a</p>
 					<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-						<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+						<!-- <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /> -->
+						<img alt="Creative Commons License" style="border-width:0" src="images/license-cc-by-sa.png" />
 					</a>
 					<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
 						<p class="small">Creative Commons Attribution-ShareAlike 4.0 International License</p>
 					</a>
 				</div>
 				<div class="col-sm-4">
-					<h6>Built With</h6>
+					<h5>Built With</h5>
 					<img src="images/bootstrap-icon-solid.svg" style="width:2rem;height:2rem;"><p class="inline-block" style="margin-left:1rem;">Bootstrap</p></img>
 					<br/>
 					<img src="images/github-icon-solid.svg" style="width:2rem;height:2rem;"><p class="inline-block" style="margin-left:1rem;">Github</p></img>
 				</div>
 				<div class="col-sm-4">
-					<h6>Contact</h6>
-					<a onfocusin="emailPopoverButtonOnfocusinCallback(this);" tabindex="0" class="btn btn-primary popover-focus-dismiss" role="button" style="text-align:left;" data-toggle="popover" data-trigger="focus" data-placement="top" title="Email" data-content="...">
-						<i class="fa fa-address-card fa-4x" style="display: inline;" aria-hidden="true"></i>
-						<div style="display:inline-block;vertical-align:top;padding-top:0.3rem">
+					<h5>Contact</h5>
+					<!-- <a id="email-popover-button" onfocusin="emailPopoverButtonOnfocusinCallback(this);" tabindex="0" class="btn btn-primary popover-focus-dismiss" role="button" style="text-align:left;" data-toggle="popover" data-trigger="focus" data-placement="top" title="Email" data-content="..."> -->
+					<a id="email-popover-button" tabindex="0" class="btn btn-primary" role="button" style="text-align:left;" data-toggle="popover" data-trigger="focus" data-placement="top" title="Email">
+						<i class="fa fa-envelope fa-2x" style="display: inline;" aria-hidden="true"></i>
+						<!-- <div style="display:inline-block;vertical-align:top;padding-top:0.3rem">
 							<p style="margin-bottom:0.5rem"><code>Tavi Kohn</code></p>
-						</div>
+						</div> -->
+					</a>
+					<a id="github-popover-button" tabindex="0" class="btn btn-primary" role="button" style="text-align:left;" data-toggle="popover" data-trigger="focus" data-placement="top" title="Github">
+						<i class="fa fa-github fa-2x" style="display: inline;" aria-hidden="true"></i>
+						<!-- <div style="display:inline-block;vertical-align:top;padding-top:0.3rem">
+							<p style="margin-bottom:0.5rem"><code>Tavi Kohn</code></p>
+						</div> -->
 					</a>
 				</div>
 			</div>
 		</div>
 	</footer>
 
-	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/webui-popover/2.1.15/jquery.webui-popover.min.js" integrity="sha256-ghsZ3ZUlahAo7UJvS19FLuw3Is34Nt+0bpARVv5yBS8=" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<!-- <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script> -->
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script> -->
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script> -->
 
-	<!-- Enable Dismissable Popovers -->
-	<script src="js/popoverFocusDismiss.js"></script>
+	<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+	<script src="node_modules/tether/dist/js/tether.min.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-	<!-- Cause email on popover to automatically decode from base64 -->
-	<script src="js/emailFocusPopoverButton.js">
-	</script>
+	<!-- Enable dismissable popovers on .popover-focus-dismiss elements-->
+	<!-- <script src="js/popoverFocusDismiss.js"></script> -->
+
+	<!-- Base64 obfuscated contact popovers -->
+	<script src="js/emailPopoverButton.js"></script>
+	<script src="js/githubPopoverButton.js"></script>
 </body>
 </html>
