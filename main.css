@@ -9,6 +9,15 @@ body {
 	background-color: #525658;
 }
 
+/* Container Text */
+.container p, .container a {
+	color: #bbb;
+}
+
+.container h1, .container h2, .container h3, .container h4, .container h5, .container h6 {
+	color: #fff;
+}
+
 /* Cards */
 .card-columns {
 	margin: 1rem;
@@ -61,10 +70,6 @@ body {
 footer {
 	background-color: #292b2c;
 	padding: 0.5em;
-}
-
-footer h1, footer h2, footer h3, footer h4, footer h5, footer h6, footer p, footer a {
-	color: #fff;
 }
 
 /*
