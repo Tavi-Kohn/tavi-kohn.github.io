@@ -1,2 +1,2 @@
 # tavi-kohn.github.io
-Main repository for my official personal website.
+Published version of my personal website
